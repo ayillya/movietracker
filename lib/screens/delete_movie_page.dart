@@ -7,6 +7,7 @@ import '../widgets/retry_button.dart';
 import '../apistate_enums.dart';
 
 class DeleteMoviePage extends StatelessWidget {
+  const DeleteMoviePage({super.key});
   @override
   Widget build(BuildContext context) {
     return GradientScaffold(
@@ -80,3 +81,9 @@ class DeleteMoviePage extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+

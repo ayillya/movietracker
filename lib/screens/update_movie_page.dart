@@ -7,6 +7,7 @@ import '../widgets/retry_button.dart';
 import '../apistate_enums.dart';
 
 class UpdateMoviePage extends StatelessWidget {
+  const UpdateMoviePage({super.key});
   @override
   Widget build(BuildContext context) {
     return GradientScaffold(
