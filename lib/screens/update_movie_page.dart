@@ -38,16 +38,12 @@ class UpdateMoviePage extends StatelessWidget {
 
               return Stack(
                 children: [
-                  // Movie card as display
                   MovieCard(movie: movie),
-
-                  // Update button overlay
                   Positioned(
                     right: 20,
                     bottom: 12,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Show dialog to update rating
                         showDialog(
                           context: context,
                           builder: (context) {

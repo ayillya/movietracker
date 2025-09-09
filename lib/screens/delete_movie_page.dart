@@ -39,7 +39,6 @@ class DeleteMoviePage extends StatelessWidget {
                     bottom: 12,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Show confirmation dialog before delete
                         showDialog(
                           context: context,
                           builder: (context) => AlertDialog(
